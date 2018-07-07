@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/dog"/>
+    <TextView
+        android:id="@+id/textoEspañol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Español: Perro"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/imagen"/>
+
+    <TextView
+        android:id="@+id/textoIngles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English : Dog"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/imagen"
+        android:layout_below="@id/textoEspañol"/>
+</RelativeLayout>
